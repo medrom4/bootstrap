@@ -1,3 +1,4 @@
 $('.carousel').carousel({
-    interval: 1000
+    interval: 1000,
+    wrap: false
 });
