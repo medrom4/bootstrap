@@ -37,7 +37,7 @@
 					<a href="#" class="nav-link">Home</a>
 				</li>
 				<li class="nav-item">
-					<a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">Pricing</a>
+					<a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">Log in</a>
 				</li>
 				<li class="nav-item">
 					<a href="#" class="nav-link">About us</a>
@@ -131,22 +131,44 @@
 
 
 	<!--модально окно-->
-	
+	<!--форма регистрации-->
+
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
-		<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<h5 class="modal-title" id="exampleModalLabel">Авторизация</h5>
 					<button class="close" type="button" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
 				<div class="modal-body">
 					<div class="container-fluid">
-						<div class="row text-center">
-							<div class="col-4">go4</div>
-							<div class="col-8">go8</div>
-						</div>
+						<form>
+							<div class="form-row">
+								<div class="col">
+									<div class="form-froup">
+										<label for="exampleInputEmail">Email address</label>
+										<input type="email" class="form-control" id="exampleInputEmail" aria-describdby="emailHelp" placeholder="Email" required>
+										<small id="emailHelp" class="form-text text-muted">Enter your email</small>
+									</div>
+								</div>
+								<div class="col">
+									<div class="form-froup">
+										<label for="exampleInputPass">Password</label>
+										<input type="password" class="form-control" id="exampleInputPass" aria-describdby="emailPass" placeholder="Password" required>
+										<small id="passHelp" class="form-text text-muted">Пароль должен содержать больше 10 символов.</small>
+									</div>
+								</div>
+							</div>
+							<div class="form-check">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input">
+									Запомнить меня
+								</label>
+							</div>
+							<button type="submit" class="btn btn-primary">Отправить</button>
+						</form>
 					</div>
 				</div>
 				<div class="modal-footer">
@@ -156,6 +178,23 @@
 			</div>
 		</div>
 	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
