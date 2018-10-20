@@ -1,5 +1,5 @@
 body {
-    height: 2000px;
+    height: 3000px;
 }
 
 .p-o {
@@ -8,8 +8,4 @@ body {
 
 .selector-for-some-widget {
     box-sizing: content-box;
-}
-
-.w-100 {
-    margin-top: 50px;
 }
